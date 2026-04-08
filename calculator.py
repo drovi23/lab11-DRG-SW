@@ -1,17 +1,14 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
+#https://github.com/drovi23/lab11-DRG-SW.git
+# Partner 1: Diego Rovigatti Gasparini
+# Partner 2: Sam Wolff
 
-One function per operation, in order.
-"""
-#First example
 
 import math
 
 def add(a, b):
     return a + b
     pass
-def sub(a,b):
+def subtract(a,b):
     return a - b
 def mul(a,b):
     return a * b
@@ -39,10 +36,10 @@ def multiply(a, b):
     return a * b
 
 
-def exponent(a,b):
+def exp(a,b):
     return a**b
 
-def log(a,b):
+def logarithm(a,b):
     if b < 0:
         raise ValueError
     else:
