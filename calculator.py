@@ -4,6 +4,21 @@ calculator.py
 
 One function per operation, in order.
 """
+<<<<<<< HEAD
+#First example
+
+import math
+
+def add(a, b):
+    return a + b
+    pass
+def sub(a,b):
+    return a - b
+def mul(a,b):
+    return a * b
+
+def div(a,b):
+=======
 # First example
 import math
 def square_root(a):
@@ -27,26 +42,6 @@ def subtract(a, b):
 
 def multiply(a, b):
     return a * b
-
-def divide(a, b):
-    if a == 0:
-        raise ZeroDivisionError
-    else:
-        return b/a
-# raise ZeroDivisionError if a == 0
-
-def logarithm(a, b):
-    if isinstance(a,int) == False:
-        raise ValueError
-
-    else:
-        return math.log(a(b))
-
-
-    loga(b)# use math library/raise ValueError
-
-def exponent(a, b):
-    return math.pow(a,b)
 
 
 
