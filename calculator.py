@@ -4,7 +4,6 @@ calculator.py
 
 One function per operation, in order.
 """
-<<<<<<< HEAD
 #First example
 
 import math
@@ -23,12 +22,14 @@ def div(a,b):
 
     else:
         return b/a
-=======
+
 # First example
 import math
 def square_root(a):
     if a < 0:
         raise ValueError
+    else:
+        return math.sqrt(a)
 
 def hypotenuse(a,b):
     return math.hypot(a,b)
@@ -45,4 +46,4 @@ def log(a,b):
     if b < 0:
         raise ValueError
     else:
-        return math.log(a(b))
+        return math.log(a,b)
