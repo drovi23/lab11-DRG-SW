@@ -18,6 +18,11 @@ def mul(a,b):
     return a * b
 
 def div(a,b):
+    if a< 0:
+        raise ZeroDivisionError
+
+    else:
+        return b/a
 =======
 # First example
 import math
@@ -26,7 +31,7 @@ def square_root(a):
         raise ValueError
 
 def hypotenuse(a,b):
-    math.hypot(a,b)
+    return math.hypot(a,b)
 
 
 def multiply(a, b):
@@ -34,4 +39,10 @@ def multiply(a, b):
 
 
 def exponent(a,b):
-    a**b
+    return a**b
+
+def log(a,b):
+    if b < 0:
+        raise ValueError
+    else:
+        return math.log(a(b))
